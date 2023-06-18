@@ -1,0 +1,87 @@
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    color: white;
+    margin-top: 50px;
+}
+
+.header {
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    height: 160px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speed {
+    height: 60px;
+    color: grey;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    height: 60px;
+    color: grey;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    .header {
+        background-color: #209caa;
+    }
+
+    .price {
+        background-color: #2cc1d5;
+    }
+}
+
+.card2 {
+
+    .header {
+        background-color: #1a8c70;
+    }
+
+    .price {
+        background-color: #24ae8d;
+    }
+}
+
+.card3 {
+    box-shadow: 0px 0px 67px -25px rgba(4, 12, 19, 1);
+
+    .header {
+        height: 60px;
+        background-color: #c3534f;
+    }
+
+    .price {
+        background-color: #f46a5f;
+    }
+}
+
+.card4 {
+
+    .header {
+        background-color: #282f37;
+    }
+
+    .price {
+        background-color: #333a44;
+    }
+}
